@@ -1,6 +1,21 @@
 function validate(formObj) {
   // validation code
   var alertString = "";
+    
+  //validation for first name field
+  var first = 0;
+  if (formObj.first.value == "") {
+    alertString += "You must enter a first name\n";
+    first += 1;
+  }
+
+  //validation for last name field
+  var last = 0;
+  if (formObj.last.value == "") {
+    alertString += "You must enter a last name\n";
+    last += 1;
+  }
+    
   //validation for username field
   var user = 0;
   if (formObj.username.value == "") {
@@ -14,15 +29,27 @@ function validate(formObj) {
     alertString += "You must enter a password\n";
     pass += 1;
   }
+    
+  var email = 0;
+  if (formObj.email.value == "") {
+    alertString += "You must enter an email address\n";
+    email += 1;
+  }
   
   //alert message
-  if ((user + pass) > 0) {
+  if ((first + last + user + pass + email) > 0) {
     alert(alertString);
     //focuses on the first field missing
-    if (user == 1) {
+    if (first == 1) {
+      formObj.first.focus();
+    } else if (last == 1) {
+      formObj.last.focus();
+    } else if (user == 1) {
       formObj.username.focus();
-    } else {
+    } else if (pass == 1) {
       formObj.password.focus();
+    } else {
+      formObj.email.focus();
     }
       
     return false;
@@ -31,4 +58,6 @@ function validate(formObj) {
     alert("Success!");
     return true;
   }
+    
+  
 }

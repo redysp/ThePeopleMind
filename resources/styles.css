@@ -1,4 +1,12 @@
 
+body { 
+  background-color: cyan;
+}
+
+h2{
+  color:blueviolet;
+}
+
 /* Login CSS */
 
 #output {
@@ -18,7 +26,7 @@ fieldset {
   clear: left;
   text-align: right;
 }
-/* Sets background color of focused fields to #fee */
+/* Sets background color of focused fields to #fee (textArea not needed)*/
 textArea:focus {
   background-color: #fee;
 }
