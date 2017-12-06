@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>The People's Mind</title>
+    <title>Login</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <link rel="stylesheet" type="text/css" href="resources/styles.css"/>
     <script type="text/javascript" src="login.js"></script>
   </head>
 
   <body>
-    <form id="addForm" name="addForm" action="#" method="post" onsubmit="return validate(this);">
+    <form id="login" name="login" action="#" method="post" onsubmit="return validate(this);">
         <fieldset> 
           <legend>Login</legend>
           <div class="formData">
@@ -23,6 +23,9 @@
           </div>
         </fieldset>
       </form>
+      
+      <button type="button" onclick="window.location.href='createAccount.html';">Create New Account</button>
+      <button type="button" onclick="window.location.href='forgotPassword.html';">Forgot Password?</button>
   </body>
   
 </html>
