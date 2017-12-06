@@ -1,0 +1,22 @@
+html, body{
+  height: 100%;
+}
+.title{
+  text-align: center;
+}
+.menu{
+  white-space: nowrap;
+  padding-left: 20px;
+}
+.menu li{
+  display: inline;
+  padding: 5px;
+  margin-left: -5px;
+}
+
+.bar{
+  padding: 1px;
+  margin: -10px;
+  width: 100%;
+  background-color: black;
+}
