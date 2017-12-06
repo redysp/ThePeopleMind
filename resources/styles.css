@@ -31,3 +31,7 @@ input:focus {
 #save {
   float: right;
 }
+
+#password {
+  -webkit-text-security: disc;
+}
