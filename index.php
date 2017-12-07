@@ -9,15 +9,9 @@
   </head>
 
   <body>
-    <div class="image">
-      <img src="resources/logo.jpg" alt="The People's Mind Logo"/>
-    </div>
-      
-    <div id="menu">
-      <a href="index.html">Home</a>
-      <a href="private.html">Private</a>
-      <a href="login.html">Login</a>
-    </div>
+    <?php 
+      include('includes/menu.inc.php'); // include the menu bar and logo
+    ?>
      
     <!-- Allow Facebook comments on page -->
     <div id="fb-root"></div>
@@ -34,9 +28,9 @@
       <p>This is a document to get you started.</p>
     </div>
     
+    <h2>Tell us what you think about our website!</h2>
     <!-- Facebook comments appear here -->
-    <!-- Change https://developers.facebook.com/docs/plugins/comments#configurator to website title index.html -->
-    <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-numposts="5"></div>
+    <div class="fb-comments" data-href="localhost/project/index.html" data-numposts="5"></div>
   </body>
   
 </html>
