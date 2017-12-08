@@ -3,9 +3,9 @@
   <head>
     <title>The People's Mind</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <link rel="stylesheet" type="text/css" href="resources/styles.css"/>
-    <link rel="icon" href="resources/logo.jpg"/>
-    <link href="https://fonts.googleapis.com/css?family=Vollkorn+SC" rel="stylesheet">
+    <?php 
+      include('includes/links.inc.php');
+    ?>
   </head>
 
   <body>
@@ -27,6 +27,8 @@
       <h1>The People's Mind</h1>
       <p>This is a document to get you started.</p>
     </div>
+      
+    <div id="test"></div>
     
     <h2>Tell us what you think about our website!</h2>
     <!-- Facebook comments appear here -->
