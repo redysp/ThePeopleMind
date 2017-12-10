@@ -40,6 +40,8 @@ a:hover {
   font-variant-caps: small-caps;
 }
 
+.blue { color: blue; }
+
 /* Login CSS */
 
 #output {

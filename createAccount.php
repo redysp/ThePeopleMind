@@ -29,7 +29,7 @@
             <div class="value"><input type="text" size="60" value="" name="username" id="username"/></div>
             
             <label class="field" for="password">Password:</label>
-            <div class="value"><input type="text" size="60" value="" name="password" id="password"/></div>
+            <div class="value"><input type="text" size="60" value="" name="password" id="password" autocomplete="off"/></div>  <!-- Autocomplete is off to remove suggestions -->
               
             <label class="field" for="email">Email:</label>
             <div class="value"><input type="text" size="60" value="" name="email" id="email"/></div>
