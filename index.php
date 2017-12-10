@@ -90,6 +90,7 @@ $numberOfFiles = sizeOf($fileArr);
     <?php 
       include('includes/links.inc.php');
     ?>
+    <script type="text/javascript" src="button.js"></script>
   </head>
 
   <body>
@@ -133,6 +134,8 @@ $numberOfFiles = sizeOf($fileArr);
           <?php } ?>
         </div>
     
+    <button onclick="create()" id="createButton" title="Create a New Poll">+</button>
+      
     <h2>Tell us what you think about our website!</h2>
     <!-- Facebook comments appear here -->
     <div class="fb-comments" data-href="localhost/project/index.html" data-numposts="5"></div>
