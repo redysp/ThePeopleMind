@@ -4,8 +4,8 @@
 
 <div id="menu">
 <a href="private.php">Private</a>
-<a href="rules.html">Rules</a>
-<a href="login.html">Login</a>
+<a href="rules.php">Rules</a>
+<a href="login.php">Login</a>
 </div>
 
 <div id="logotext">
