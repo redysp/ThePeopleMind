@@ -3,12 +3,17 @@
   <head>
     <title>Create Account</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <link rel="stylesheet" type="text/css" href="resources/styles.css"/>
+    <?php 
+      include('includes/links.inc.php');
+    ?>
     <script type="text/javascript" src="createAccount.js"></script>
     <script src='https://www.google.com/recaptcha/api.js'></script>
   </head>
 
   <body>
+    <?php 
+      include('includes/menu.inc.php'); // include the menu bar and logo
+    ?>
     <form id="create" name="create" action="#" method="post" onsubmit="return validate(this);">
         <fieldset> 
           <legend>Create Account</legend>

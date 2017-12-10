@@ -3,11 +3,16 @@
   <head>
     <title>Login</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <link rel="stylesheet" type="text/css" href="resources/styles.css"/>
+    <?php 
+      include('includes/links.inc.php');
+    ?>
     <script type="text/javascript" src="login.js"></script>
   </head>
 
   <body>
+    <?php 
+      include('includes/menu.inc.php'); // include the menu bar and logo
+    ?>
     <form id="login" name="login" action="#" method="post" onsubmit="return validate(this);">
         <fieldset> 
           <legend>Login</legend>
@@ -24,8 +29,8 @@
         </fieldset>
       </form>
       
-      <button type="button" onclick="window.location.href='createAccount.html';">Create New Account</button>
-      <button type="button" onclick="window.location.href='forgotPassword.html';">Forgot Password?</button>
+      <button type="button" onclick="window.location.href='createAccount.php';">Create New Account</button>
+      <button type="button" onclick="window.location.href='forgotPassword.php';">Forgot Password?</button>
   </body>
   
 </html>
