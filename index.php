@@ -123,10 +123,9 @@ $numberOfFiles = sizeOf($fileArr);
                 <div id = "blog_date"><?php echo $post['DATE']; ?>
                 </div>
                 	<?php echo $post['CONTENT']; ?>
-                    <div><br/><a href = "comment.php">comment</a>&nbsp;
-                    
-            				<a href = "<?php echo $post['POLLADDRESS']; ?>">To Poll</a>&nbsp;
-                   			<a href = "<?php echo $post['POLLRESULTADDRESS']; ?>">Result of Poll</a>&nbsp;
+                    <div><br/>
+                    <a href = "<?php echo $post['POLLADDRESS']; ?>">To Poll</a>&nbsp;
+                   	<a href = "<?php echo $post['POLLRESULTADDRESS']; ?>">Result of Poll</a>&nbsp;
                     </div>
                 </div>
            </div>
