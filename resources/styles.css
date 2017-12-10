@@ -1,5 +1,5 @@
 
-body { 
+body {
   background-color: aliceblue;
   padding: 0px;
   font-family: Helvetica, sans-serif;
@@ -61,7 +61,7 @@ a:hover {
   border: 1px solid #ddd;
 }
 fieldset {
-  padding-top: 1em; 
+  padding-top: 1em;
 }
 .field {
   width: 120px;
@@ -108,7 +108,7 @@ input:focus {
 }
 
 /* Poll CSS */
-	
+
 #biaotilan{
 	margin-left:auto;
 	margin-right:auto;
@@ -121,7 +121,7 @@ input:focus {
 	font-size:18px;
 	font-weight:bold;
 }
-	
+
 #center{
 	float:none;
 	margin-left:auto;
@@ -130,7 +130,7 @@ input:focus {
 	padding:5px;
 	width:auto;
 }
-	
+
 #blog_entry{
 	margin-left:80px;
 	margin-right:80px;
@@ -139,7 +139,7 @@ input:focus {
 	border:none;
 	background-color:#FFF;
 }
-	
+
 #blog_title{
 	border-bottom:1px solid #000;
 	background-color: cornflowerblue;
@@ -147,16 +147,16 @@ input:focus {
 	padding:8px;
 	border:none;
 	font-weight:bold;
-	font-size:13px;	
+	font-size:13px;
 }
-	
+
 #blog_body{
 	margin-left:auto;
 	margin-right:auto;
 	margin-top:4px;
 	padding:6px;
 }
-	
+
 #blog_date{
 	margin-left:auto;
 	margin-right:auto;
@@ -177,4 +177,3 @@ input:focus {
         list-style: none;
         margin: 0 0.25em 0 0.25em;
 }
-
