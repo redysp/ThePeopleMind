@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Create Account</title>
+    <title>The People's Mind: Create Account</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <?php 
       include('includes/links.inc.php');

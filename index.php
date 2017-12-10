@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>The People's Mind</title>
+    <title>The People's Mind: Home</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <?php 
       include('includes/links.inc.php');

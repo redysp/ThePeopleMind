@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>The People's Mind</title>
+    <title>The People's Mind: Rules</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <script type="text/javascript" src="resources/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="rules.js"></script>
     <?php 
       include('includes/links.inc.php');
     ?>
@@ -12,8 +14,9 @@
     <?php 
       include('includes/menu.inc.php'); // include the menu bar and logo
     ?>
-    <h1>Rules</h1>
-    <ul>
+    <h1 id="rules">Rules</h1>
+    <div id="instructions">(Click to see rules)</div>
+    <ul id="rulesList">
       <li>The People's Mind helps people solve real life problems with society’s influence</li>
       <li>Post a question and include up to 6 options to choose from</li>  
       <li>Vote your opinion on an issue by selecting one of the options</li>
