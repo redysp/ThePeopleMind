@@ -20,6 +20,9 @@
       <li>In order to comment on an issue, you must vote</li>
       <li>Want to keep your identity secret? Post your question in the private section (comments are disabled in the private section).</li>
     </ul>
+    <?php 
+      include('includes/footer.inc.php');
+    ?>
   </body>
   
 </html>

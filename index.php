@@ -26,6 +26,10 @@
     <h2>Tell us what you think about our website!</h2>
     <!-- Facebook comments appear here -->
     <div class="fb-comments" data-href="localhost/project/index.html" data-numposts="5"></div>
+      
+    <?php 
+      include('includes/footer.inc.php');
+    ?>
   </body>
   
 </html>

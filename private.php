@@ -15,6 +15,9 @@
     <h1>Private Section</h1>
     <p>All votes and debates here are anonymous</p>
     <h2>Vote:</h2>
+    <?php 
+      include('includes/footer.inc.php');
+    ?>
   </body>
   
 </html>

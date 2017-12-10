@@ -29,8 +29,11 @@
         </fieldset>
       </form>
       
-      <button type="button" onclick="window.location.href='createAccount.php';">Create New Account</button>
-      <button type="button" onclick="window.location.href='forgotPassword.php';">Forgot Password?</button>
+    <button type="button" onclick="window.location.href='createAccount.php';">Create New Account</button>
+    <button type="button" onclick="window.location.href='forgotPassword.php';">Forgot Password?</button>
+    <?php 
+      include('includes/footer.inc.php');
+    ?>
   </body>
   
 </html>
