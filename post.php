@@ -2,7 +2,7 @@
 ini_set("error_reporting","E_ALL &~ E_NOTICE");
 date_default_timezone_set('UTC');
 if(!isset($_GET['entry'])){
-	echo '请求参数错误';
+	echo 'fail';
 	exit;
 	}
 	$path = substr($_GET['entry'],0,6);
@@ -22,39 +22,34 @@ if(!isset($_GET['entry'])){
 		$msg = '<a href = "index.php">Home Page</a>';
 				echo $msg;
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>ThePeopleMind</title>
-<link rel = "stylesheet" type = "text/css" href = "style.css">
-</head>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The People's Mind: Results</title>
+    <?php 
+      include('includes/links.inc.php');
+    ?>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  </head>
 
-<body>
-<div id = "container">
-	<div id = "header">
-      <div class="text" style=" text-align:center;">
-      <h1>ThePeopleMind</h1></div>
-</div>
+  <body>
+    <?php 
+      include('includes/menu.inc.php'); // include the menu bar and logo
+    ?>
 
-    <div id = "left">
+    <div id = "center">
     	<div id = "blog_entry">
         	<div id = "blog_title"><?php echo $content_array[0]; ?></div>
             <div id = "blog_body">
-            	<div id = "blog_date"><?php echo date('Y-m-d H:i:s',$content_array[1]); ?><br/>
-			   <h1><?php echo $content_array[2]; ?></h1> 
-         		       
-         		   
-         		          
-          		       
-           		</div>
-
-           	
+              <div id = "blog_date"><?php echo date('Y-m-d H:i:s',$content_array[1]); ?><br/>
+			    <h1><?php echo $content_array[2]; ?></h1> 
+              </div>
             </div>
         </div>
     </div>
-    <div id = "footer">ThePeopleMind</div>
- </div>
+    <?php 
+      include('includes/footer.inc.php');  // Includes button and footer
+    ?>
   	 		
 </body>
 </html>
