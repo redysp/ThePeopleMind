@@ -32,6 +32,9 @@
         </fieldset>
         <div class="g-recaptcha" data-sitekey="6Lc3-zsUAAAAAJr28YZS6rH-CFktbEPwsXfBWJUu"></div>
       </form>
+    <?php 
+      include('includes/footer.inc.php');
+    ?>
   </body>
   
 </html>
