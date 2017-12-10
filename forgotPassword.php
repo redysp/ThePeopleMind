@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Reset Password</title>
+    <title>The People's Mind: Reset Password</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <?php 
       include('includes/links.inc.php');
