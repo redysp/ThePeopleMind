@@ -22,13 +22,6 @@
       js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.11';
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
-      
-    <div id="bodyBlock">
-      <h1>The People's Mind</h1>
-      <p>This is a document to get you started.</p>
-    </div>
-      
-    <div id="test"></div>
     
     <h2>Tell us what you think about our website!</h2>
     <!-- Facebook comments appear here -->
