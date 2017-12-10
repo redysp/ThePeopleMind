@@ -69,11 +69,11 @@ if(isset($_POST['title'])&&isset($_POST['content'])){
               <tr><td><input type = "text" name = "title" size = "54"></td></tr>
               <tr>
                 <td>Description of Problem</td></tr>
-              <tr><td><textarea name = "content" cols = "42" rows = "10"></textarea></td></tr>
+              <tr><td><textarea name = "content" cols = "50" rows = "10"></textarea></td></tr>
                           
               <tr><td><input type="button" onclick="window.open('https://www.poll-maker.com/');" value="Create Poll" />You must create a poll here!</td></tr>
-              <tr><td>Copy your poll address here:<input type = "text" name = "polladdress" size = "15"></td>
-              <tr><td>Copy your poll result address here:<input type = "text" name = "pollresultaddress" size = "11"></td>
+              <tr><td>Copy your poll address here: <input type = "text" name = "polladdress" size = "22"></td>
+              <tr><td>Copy your poll result address here: <input type = "text" name = "pollresultaddress" size = "15"></td>
               </tr>
               <tr><td><input type = "submit" value = "post"></td></tr>
             </form>
