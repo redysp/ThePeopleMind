@@ -81,6 +81,25 @@ input:focus {
   -webkit-text-security: disc;
 }
 
+/* Button CSS */
+
+#createButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px; 
+    z-index: 100;
+    border: none;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#createButton:hover {
+    background-color: darkgray;
+}
+
 /* Poll CSS */
 	
 #biaotilan{
