@@ -1,6 +1,9 @@
 
 body { 
   background-color: aliceblue;
+  padding: 0px;
+  font-family: Helvetica, sans-serif;
+  width: auto;
 }
 
 #logoText {
@@ -78,3 +81,75 @@ input:focus {
 #password {
   -webkit-text-security: disc;
 }
+
+/* Poll CSS */
+	
+#biaotilan{
+	margin-left:auto;
+	margin-right:auto;
+	padding:8px;
+	font-size:16px;
+	font-weight:bold;
+}
+
+#p.biaoti span{
+	font-size:18px;
+	font-weight:bold;
+}
+	
+#center{
+	float:none;
+	margin-left:auto;
+	margin-right:auto;
+	margin:6px 0 4px 2px;
+	padding:5px;
+	width:auto;
+}
+	
+#blog_entry{
+	margin-left:80px;
+	margin-right:80px;
+	margin-top:4px;
+	margin-bottom:10px;
+	border:none;
+	background-color:#FFF;
+}
+	
+#blog_title{
+	border-bottom:1px solid #000;
+	background-color: cornflowerblue;
+    margin:0px;
+	padding:8px;
+	border:none;
+	font-weight:bold;
+	font-size:13px;	
+}
+	
+#blog_body{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:4px;
+	padding:6px;
+}
+	
+#blog_date{
+	margin-left:auto;
+	margin-right:auto;
+	padding:0 0 8px 0;
+	font-size:10px;
+}
+
+#contactInfo {
+        border-top: 2px solid #333;
+        border-bottom: 2px solid #333;
+        padding: 4px 0  4px 0;
+        margin: 0;
+        text-align: center;
+        white-space: nowrap;
+}
+#contactInfo li {
+        display: inline;
+        list-style: none;
+        margin: 0 0.25em 0 0.25em;
+}
+
