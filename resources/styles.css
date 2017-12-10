@@ -3,7 +3,7 @@ body {
   background-color: aliceblue;
 }
 
-h1 {
+#logotext h1 {
   font-family: 'Vollkorn SC', serif;
   cursor: pointer;
 }
@@ -12,7 +12,7 @@ h2 {
   color:blueviolet;
 }
 
-img {
+#logo img {
   float: left;
   border-radius: 50%;
   max-width: 10%;
