@@ -1,0 +1,185 @@
+
+body {
+  background-color: aliceblue;
+  padding: 0px;
+  font-family: Helvetica, sans-serif;
+  width: auto;
+}
+
+#logoText {
+  font-family: 'Vollkorn SC', serif;
+  cursor: pointer;
+}
+
+h2 {
+  color:blueviolet;
+}
+
+#logo {
+  float: left;
+  border-radius: 50%;
+  max-width: 10%;
+  max-height: 10%;
+  cursor: pointer;
+}
+
+#menu {
+  background-color: cornflowerblue;
+  padding: 4px 0 4px 0;
+  margin: 0;
+  text-align: left;
+  white-space: nowrap;
+  font-size: 1.5em;
+}
+
+#menu a {
+  text-decoration: none; 
+  color:aliceblue;
+}
+
+#footer {
+  position: absolute;
+  margin-bottom: 0;
+  display: block;
+  margin-left: 40%;
+<<<<<<< HEAD
+  margin-right: 40%;
+=======
+  margin-right: 40%
+>>>>>>> 677f795322d5690c5ad0a0367323e2084b926758
+}
+
+a:hover {
+  font-variant-caps: small-caps;
+}
+
+.blue { color: blue; }
+
+/* Login CSS */
+
+#output {
+  margin: 1em 0;
+  color: black;
+  background-color: #fee;
+  padding: 1em;
+  border: 1px solid #ddd;
+}
+fieldset {
+  padding-top: 1em;
+  margin-left: 20%;
+  margin-right: 20%; 
+}
+.field {
+  width: 120px;
+  margin: 0 0.5em 0.5em 0;
+  float: left;
+  clear: left;
+  text-align: right;
+}
+/* Sets background color of focused fields to #fee (textArea not needed)*/
+textArea:focus {
+  background-color: #fee;
+}
+input:focus {
+  background-color: #fee;
+}
+.value {
+  margin: 0 0 0.5em 0;
+}
+#save {
+  float: right;
+}
+
+#password {
+  -webkit-text-security: disc;
+}
+
+/* Button CSS */
+
+#createButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+    border: none;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#createButton:hover {
+    background-color: darkgray;
+}
+
+/* Poll CSS */
+
+#biaotilan{
+	margin-left:auto;
+	margin-right:auto;
+	padding:8px;
+	font-size:16px;
+	font-weight:bold;
+}
+
+#p.biaoti span{
+	font-size:18px;
+	font-weight:bold;
+}
+
+#center{
+	float:none;
+	margin-left:auto;
+	margin-right:auto;
+	margin:6px 0 4px 2px;
+	padding:5px;
+	width:auto;
+}
+
+#blog_entry{
+	margin-left:80px;
+	margin-right:80px;
+	margin-top:4px;
+	margin-bottom:10px;
+	border:none;
+	background-color:#FFF;
+}
+
+#blog_title{
+	border-bottom:1px solid #000;
+	background-color: cornflowerblue;
+    margin:0px;
+	padding:8px;
+	border:none;
+	font-weight:bold;
+	font-size:13px;
+}
+
+#blog_body{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:4px;
+	padding:6px;
+}
+
+#blog_date{
+	margin-left:auto;
+	margin-right:auto;
+	padding:0 0 8px 0;
+	font-size:10px;
+}
+
+#contactInfo {
+        border-top: 2px solid #333;
+        border-bottom: 2px solid #333;
+        padding: 4px 0  4px 0;
+        margin: 0;
+        text-align: center;
+        white-space: nowrap;
+}
+#contactInfo li {
+        display: inline;
+        list-style: none;
+        margin: 0 0.25em 0 0.25em;
+}
