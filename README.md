@@ -1,7 +1,7 @@
 # ThePeopleMind
 The People's Mind
 
-By: Bruce Sheng, Carlos Power, and Salil Chandra
+By: Bruce Sheng, Carlos Power, and Salil Chandra (Group 17)
 Intro to ITWS 1100
 Presentation date: December 11, 2017
 
