@@ -1,14 +1,10 @@
 $(document).ready(function() {
   $("#rulesList").hide();
-    
-  $("#rules").click(function() {
-      $("#rulesList").toggle();
+  
+  $("#rulesList").each(function(index) {
+    $(this).delay(400*index).fadeIn(2000);
   });
-    
-  $("#instructions").click(function() {
-      $("#rulesList").toggle();
-  });
-    
+     
   $("#rulesList li").hover(function() {
 	 	$(this).addClass("blue");
 	 }, function() {
