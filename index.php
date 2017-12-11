@@ -124,8 +124,9 @@ $numberOfFiles = sizeOf($fileArr);
            </div>
            <br/>
           <?php } ?>
-        </div>
+    </div>
     
+    <button onclick="create()" id="createButton" title="Create a New Poll">+</button>   
       
     <h2>Tell us what you think about our website!</h2>
     <!-- Facebook comments appear here -->
