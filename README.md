@@ -15,6 +15,7 @@ To run the application:
 
 Github repository that contains the project: https://github.com/redysp/ThePeopleMind
 Presentation slides: https://docs.google.com/presentation/d/1px9BtSRW0M2mkkJOr7dIK2gV46mcQvoV33imQFPdfOw/edit?usp=sharing
+Framework: https://wireframepro.mockflow.com/view/D6d70ecef281153ed5c8011365e246444
 
 Any questions or comments, please contact us:
 1. Bruce Sheng - shengs2@rpi.edu
