@@ -106,15 +106,7 @@ $numberOfFiles = sizeOf($fileArr);
       
     <?php 
       include('includes/menu.inc.php'); // include the menu bar and logo
-    ?>
-      
-    <div id = "biaotilan">
-      <div class="text" style="text-align: center; font-size: 18px;">
-    	<p class="biaoti"><span><!--<a href="index.php">首页</a>&nbsp;&nbsp;&nbsp;&nbsp; -->  
-          <a href="add.php">Create a New Poll</a>&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
-      </div>
-    </div>
-      
+    ?> 
     <div id = "center">
         <?php foreach($post_data as $post){
 			?>
@@ -134,14 +126,13 @@ $numberOfFiles = sizeOf($fileArr);
           <?php } ?>
         </div>
     
-    <button onclick="create()" id="createButton" title="Create a New Poll">+</button>
       
     <h2>Tell us what you think about our website!</h2>
     <!-- Facebook comments appear here -->
     <div class="fb-comments" data-href="localhost/project/index.html" data-numposts="5"></div>
       
     <?php 
-      include('includes/footer.inc.php');
+      include('includes/footer.inc.php');  // Includes button and footer
     ?>
   </body>
   

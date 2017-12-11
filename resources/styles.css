@@ -24,13 +24,17 @@ h2 {
 }
 
 #menu {
-  border-top: 2px solid blue;
-  border-bottom: 2px solid blue;
   background-color: cornflowerblue;
   padding: 4px 0 4px 0;
   margin: 0;
   text-align: left;
   white-space: nowrap;
+  font-size: 1.5em;
+}
+
+#menu a {
+  text-decoration: none; 
+  color:aliceblue;
 }
 
 #footer {
@@ -38,7 +42,7 @@ h2 {
   margin-bottom: 0;
   display: block;
   margin-left: 40%;
-  margin-right: 40%; 
+  margin-right: 40%
 }
 
 a:hover {
