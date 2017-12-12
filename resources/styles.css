@@ -21,6 +21,7 @@ body#private {
 
 h2 {
   color:blueviolet;
+  text-shadow: 4px 4px 4px #aaa;
 }
 
 #logo {
@@ -46,6 +47,7 @@ h2 {
 }
 
 #footer {
+  color: gray;
   position: absolute;
   margin-bottom: 0;
   display: block;
@@ -57,14 +59,16 @@ a:hover {
   font-variant-caps: small-caps;
 }
 
-.blue { color: blue; }
+.blue {
+  color: blue;
+}
 
 /* Login CSS */
 
 #output {
   margin: 1em 0;
   color: black;
-  background-color: #fee;
+  background-color: lightblue;
   padding: 1em;
   border: 1px solid #ddd;
 }
